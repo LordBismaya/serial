@@ -180,8 +180,8 @@ public:
   Serial (const std::string &port = "",
           uint32_t baudrate = 9600,
           Timeout timeout = Timeout(),
-          bytesize_t bytesize = eightbits,
-          parity_t parity = parity_none,
+          bytesize_t bytesize = sevenbits,
+          parity_t parity = parity_even,
           stopbits_t stopbits = stopbits_one,
           flowcontrol_t flowcontrol = flowcontrol_none);
 
